@@ -11,9 +11,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@slack/web-api": "^6.1.0",
+    "dotenv": "^8.2.0"
+  },
   "devDependencies": {
     "@types/chai": "^4.2.17",
+    "@types/dotenv": "^8.2.0",
     "@types/mocha": "^8.2.2",
     "chai": "^4.3.4",
     "eslint": "^7.25.0",
