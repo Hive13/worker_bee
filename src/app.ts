@@ -10,7 +10,7 @@ const SLACK_TOKEN = process.env.SLACK_TOKEN;
 
 const web = new WebClient(SLACK_TOKEN);
 
-const conversationId = 'C020PABE8HL';
+const conversationId = 'CMEGP18F5';
 
 async function _PostMessage(message: string) {
     const res = await web.chat.postMessage({channel: conversationId, text: message});
