@@ -7,11 +7,14 @@ dotenv.config();
 import { WebClient } from '@slack/web-api';
 
 const SLACK_TOKEN = process.env.SLACK_TOKEN;
-
 const web = new WebClient(SLACK_TOKEN);
-
 const conversationId = 'CMEGP18F5';
 
+/**
+ * Sends a Slack message to the currently configured channel.
+ *
+ * @param message Message to send.
+ */
 async function _PostMessage(message: string) {
     const res = await web.chat.postMessage({channel: conversationId, text: message});
 
