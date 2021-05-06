@@ -16,7 +16,7 @@ const SLACK_SOCKET_TOKEN = process.env.SLACK_SOCKET_TOKEN;
 const web = new WebClient(SLACK_TOKEN);
 
 // Conversation Identifiers
-// - C020PABE8HL = #hive13_bot_far
+// - C020PABE8HL = #hive13_bot_farm
 // - C020MAN5TS6 = #bot_development
 const conversationId = 'C020PABE8HL';
 

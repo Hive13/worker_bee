@@ -4,11 +4,11 @@
     <option name="interpreterRef" value="project" />
     <option name="interpreterOptions" value="" />
     <option name="workingDirectory" value="" />
-    <option name="tsconfigFile" value="C:\Users\ryodo\Documents\Programming\worker_bee\tsconfig.json" />
+    <option name="tsconfigFile" value="$PROJECT_DIR$/../worker_bee\tsconfig.json" />
     <option name="extraTypeScriptOptions" value="" />
-    <option name="scriptName" value="C:\Users\ryodo\Documents\Programming\worker_bee\src\app.ts" />
+    <option name="scriptName" value="$PROJECT_DIR$/../worker_bee\src\app.ts" />
     <option name="programParameters" value="" />
-    <option name="tsnodePackage" value="~\Documents\Programming\worker_bee\node_modules\ts-node" />
+    <option name="tsnodePackage" value="~\IdeaProjects\worker_bee\node_modules\ts-node" />
     <method v="2" />
   </configuration>
 </component>
