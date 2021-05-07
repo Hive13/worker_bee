@@ -12,6 +12,8 @@
   "rules": {
     "no-console": "off",
     "require-jsdoc": "error",
-    "brace-style": "error"
+    "brace-style": "error",
+    "semi": "off",
+    "@typescript-eslint/semi": ["error"]
   }
 }
